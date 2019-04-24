@@ -1,0 +1,273 @@
+/****************************************
+GENERAL
+****************************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #333;
+/*
+  min-width: 375px;
+  width: auto !important;
+  width: 375px;
+*/
+}
+
+#wrapper {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#wrapper{
+  background-color: #fff;
+  height: 100%;
+}
+
+/****************************************
+HEADING
+****************************************/
+
+header {
+  padding: 20px 0 0px 0;
+  margin: 0;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Helvetica', sans-serif;
+  margin: 0;
+  font-size: 3.5em;
+  font-weight: normal;
+  line-height: 0.8em;
+  letter-spacing: 4px;
+}
+
+
+
+/****************************************
+SEARCH BAR
+****************************************/
+
+#search {
+  margin: 0 auto;
+  padding: 0;
+}
+
+#search_bar {
+  float: left;
+  padding: 0px 0 0px 0;
+  margin: 25px 0 20px 0;
+  padding: 1% 3%;
+  padding-top: 1.2%;
+  width: 65%;
+  font-size: 1.2em;
+  height: 50px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, .1);
+}
+
+#search_bar:hover {
+  border-color: #33adff;
+}
+
+.button {
+  background-color: #fff;
+  color: #555;
+  display: inline-block;
+  min-width: 100px;
+  width: 15%;
+  height: 50px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2em;
+  margin: 25px 0px 0px 0px;
+}
+
+.button:nth-child(1){
+  margin-left: 4%
+}
+
+.button:hover {
+  background-color: #eee;
+  color: #33adff;
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 1px;
+}
+
+
+/****************************************
+WEBSITE SELECT
+****************************************/
+
+#website-list{
+  display: none;
+  font-size: 1.1em;
+  list-style: none;
+  border-radius: 5px;
+  background-color: #555;
+  width: 98%;
+  box-shadow:
+        0 1px 4px rgba(51, 173, 255, 0.3), 
+        0 0 40px rgba(51, 173, 255, 0.1) inset;
+  padding: 2% 0 2% 2%;
+  margin: 0;
+  
+  -webkit-column-count: 2;
+  -mox-column-count: 2;
+  column-count: 2;
+  
+  -webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
+  column-gap: 40px;
+  
+  -webkit-column-rule: 1px solid #fff; /* Chrome, Safari, Opera */
+  -moz-column-rule: 1px solid #fff; /* Firefox */
+  column-rule: 1px solid #fff;
+}
+
+#website-list li{
+  padding: 10px;
+}
+
+input[type=checkbox] {
+	visibility: hidden;
+}
+
+.checkboxFour {
+  	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: #ddd;
+	border-radius: 100%;
+	position: relative;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+}
+
+.checkboxFour label {
+	width: 13px;
+	height: 13px;
+	border-radius: 100%;
+	transition: all .2s ease;
+	cursor: pointer;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	z-index: 1;
+	background: #900;
+}
+
+.checkboxFour input[type=checkbox]:checked + label {
+	background: #33adff;
+}
+
+
+
+/****************************************
+RESULTS TABLE
+****************************************/
+
+section {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  max-width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+    border-bottom: 1px solid #33adff;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+th {
+    background-color: #33adff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    font-size: 1.3rem;
+}
+
+td {
+  font-size: 1.2em;
+  padding: 5px 10px 5px 10px;
+}
+
+td:nth-child(even) {
+  border-left: solid 1px #ccc;
+  border-right: solid 1px #ccc;
+}
+
+
+/****************************************
+FOOTER
+****************************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+  display: none;
+}
+
+
+
+/****************************************
+COLORS
+****************************************/
+
+/* LINKS */
+a {
+  color: #000;
+}
+
+a:visited {
+  color: #000;
+}
+
+a:hover {
+  color: #33adff;
+}
+
+/* WEBSITE SELECT */
+#website-list li a{
+  color: #fff;
+}
+
+#website-list li a:hover {
+  text-decoration: underline;
+}
+
+
+
+/****************************************
+RESPONSIVE
+****************************************/
+
+@media screen and (max-width: 740px) {
+  #search_bar{
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+  }
+  .button{
+    margin: 0;
+  }
+
+
+}

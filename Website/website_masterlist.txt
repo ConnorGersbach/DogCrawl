@@ -1,0 +1,9 @@
+"amazon" http://www.amazon.com
+"bestbuy" http://www.bestbuy.com
+"staples" http://www.staples.com
+"macys" http://www.macys.com
+"target" http://www.target.com
+"walmart" http://www.walmart.com
+"homedepot" http://www.homedepot.com
+"newegg" http://www.newegg.com
+"b&h" http://www.bhphotovideo.com

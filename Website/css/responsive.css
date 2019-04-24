@@ -1,0 +1,23 @@
+@media screen and (max-width: 480px) {
+  header {
+    margin: auto;
+    padding: 40px 0 40px 0;
+    width: 100%;
+  }
+  #logo h1 {
+    font-size: 3em;
+    letter-spacing: 5px;
+    line-height: 0.8em;
+  }
+  nav li {
+    font-size: 1.3em;
+  }
+  
+  #website-list { 
+  font-size: 1.15em;
+  -webkit-column-count: 1;
+  -mox-column-count: 1;
+  column-count: 1;
+  }
+  
+}
